@@ -1,0 +1,23 @@
+Hello
+Thank you for your very good app
+I got an error
+Please note image-------->(I have not allowe insert picture)
+Element </div> has returned to PHP comments
+Why??????????
+----------------------------------
+Code error:
+------------------------------
+<Div>
+
+<? Php
+$ Text = $ model [ 'comment'];
+
+$ Text = str_replace ( '<p>', '<div>', $ text);
+
+// $ Text = str_replace ( '<pre>', '<div>', $ text);
+
+$ Text = str_replace ( '[/ p]', '</ div>', $ text);
+
+?>
+
+</Div>
